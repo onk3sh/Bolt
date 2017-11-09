@@ -8,6 +8,8 @@ public class DataWebElement {
 	private String perspectiveOrigin = null;
 	private String breakpointValue = null;
 	
+	private String allCSSValues = null;
+	
 	public DataWebElement() {
 		//initialize
 		id = "";
