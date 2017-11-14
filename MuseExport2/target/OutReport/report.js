@@ -1,123 +1,139 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("SampleTest.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("WebServicePOSTCallTest.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Compare two sites created from Muse",
-  "description": "",
-  "id": "compare-two-sites-created-from-muse",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
+  "comments": [
+    {
+      "line": 1,
+      "value": "#File contains test for one ids against specific css properties"
+    }
+  ],
   "line": 3,
-  "name": "Open Muse site and scrub browser to check responsiveness for the complete site",
+  "name": "Validating values between two URLs on basis of params",
   "description": "",
-  "id": "compare-two-sites-created-from-muse;open-muse-site-and-scrub-browser-to-check-responsiveness-for-the-complete-site",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "Compare sites from URL1 \u003d \"\u003cURL1\u003e\" and URL2 \u003d \"\u003cURL2\u003e\" using Java",
-  "keyword": "Given "
-});
-formatter.examples({
-  "line": 7,
-  "name": "",
-  "description": "",
-  "id": "compare-two-sites-created-from-muse;open-muse-site-and-scrub-browser-to-check-responsiveness-for-the-complete-site;",
-  "rows": [
+  "id": "validating-values-between-two-urls-on-basis-of-params",
+  "keyword": "Feature",
+  "tags": [
     {
-      "cells": [
-        "URL1",
-        "URL2"
-      ],
-      "line": 8,
-      "id": "compare-two-sites-created-from-muse;open-muse-site-and-scrub-browser-to-check-responsiveness-for-the-complete-site;;1"
+      "line": 2,
+      "name": "@json"
     },
     {
-      "cells": [
-        "file:///C:/Users/obansal/Documents/MuseExport/index.html",
-        "file:///C:/Users/obansal/Documents/MuseExport/index.html"
-      ],
-      "line": 9,
-      "id": "compare-two-sites-created-from-muse;open-muse-site-and-scrub-browser-to-check-responsiveness-for-the-complete-site;;2"
-    },
-    {
-      "cells": [
-        "http://test-nov62017-125.businesscatalyst.com/index.html",
-        "http://test-nov62017-125.businesscatalyst.com/index.html"
-      ],
-      "line": 10,
-      "id": "compare-two-sites-created-from-muse;open-muse-site-and-scrub-browser-to-check-responsiveness-for-the-complete-site;;3"
+      "line": 2,
+      "name": "@post"
     }
-  ],
-  "keyword": "Examples"
+  ]
 });
-formatter.scenario({
-  "line": 9,
-  "name": "Open Muse site and scrub browser to check responsiveness for the complete site",
-  "description": "",
-  "id": "compare-two-sites-created-from-muse;open-muse-site-and-scrub-browser-to-check-responsiveness-for-the-complete-site;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
+formatter.before({
+  "duration": 2373287,
+  "status": "passed"
 });
-formatter.step({
-  "line": 5,
-  "name": "Compare sites from URL1 \u003d \"file:///C:/Users/obansal/Documents/MuseExport/index.html\" and URL2 \u003d \"file:///C:/Users/obansal/Documents/MuseExport/index.html\" using Java",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "file:///C:/Users/obansal/Documents/MuseExport/index.html",
-      "offset": 27
-    },
-    {
-      "val": "file:///C:/Users/obansal/Documents/MuseExport/index.html",
-      "offset": 97
-    }
-  ],
-  "location": "StepDefinitionMain.compare_two_url(String,String)"
-});
-formatter.result({
-  "duration": 14398321093,
+formatter.before({
+  "duration": 98689,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "Open Muse site and scrub browser to check responsiveness for the complete site",
+  "line": 5,
+  "name": "Open Muse site and scrub in browser.",
   "description": "",
-  "id": "compare-two-sites-created-from-muse;open-muse-site-and-scrub-browser-to-check-responsiveness-for-the-complete-site;;3",
+  "id": "validating-values-between-two-urls-on-basis-of-params;open-muse-site-and-scrub-in-browser.",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "Compare sites from URL1 \u003d \"http://test-nov62017-125.businesscatalyst.com/index.html\" and URL2 \u003d \"http://test-nov62017-125.businesscatalyst.com/index.html\" using Java",
-  "matchedColumns": [
-    0,
-    1
+  "line": 7,
+  "name": "List of WebElement ids for JSON Object",
+  "rows": [
+    {
+      "cells": [
+        "pamphletu97"
+      ],
+      "line": 8
+    }
   ],
   "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "List of Breakpoint values for JSON Object",
+  "rows": [
+    {
+      "cells": [
+        "960"
+      ],
+      "line": 10
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "List of CSS values for JSON Object",
+  "rows": [
+    {
+      "cells": [
+        "width"
+      ],
+      "line": 12
+    },
+    {
+      "cells": [
+        "height"
+      ],
+      "line": 13
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 14,
+      "value": "#Then Compare sites from URL1 \u003d \"file:///C:/Users/obansal/Documents/MuseExport/index.html\" and URL2 \u003d \"file:///C:/Users/obansal/Documents/MuseExport1/index.html\" using Java for WebElementID \u003d \"u94\""
+    }
+  ],
+  "line": 15,
+  "name": "Compare URL1 \u003d \"http://muse-php.com/BoltTestData/set1/1/index.html\" and URL2 \u003d \"http://muse-php.com/BoltTestData/set1/1/index.html\" via POST",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitionJSON.get_id_list(String\u003e)"
+});
+formatter.result({
+  "duration": 213895495,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitionJSON.get_BP_list(String\u003e)"
+});
+formatter.result({
+  "duration": 102637,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitionJSON.get_css_list(String\u003e)"
+});
+formatter.result({
+  "duration": 88426,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "http://test-nov62017-125.businesscatalyst.com/index.html",
-      "offset": 27
+      "val": "http://muse-php.com/BoltTestData/set1/1/index.html",
+      "offset": 16
     },
     {
-      "val": "http://test-nov62017-125.businesscatalyst.com/index.html",
-      "offset": 97
+      "val": "http://muse-php.com/BoltTestData/set1/1/index.html",
+      "offset": 80
     }
   ],
-  "location": "StepDefinitionMain.compare_two_url(String,String)"
+  "location": "StepDefinitionJSON.compare_two_urls_idList_BpList_cssList(String,String)"
 });
 formatter.result({
-  "duration": 117891023391,
+  "duration": 1404156,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 26054,
   "status": "passed"
 });
 });

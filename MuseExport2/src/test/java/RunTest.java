@@ -6,9 +6,11 @@ import cucumber.api.junit.Cucumber;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = {"pretty", "html:target/OutReport"},
 		features = "src/test/resources",
-		glue={"main.java"}
+		glue={"main.java"},
+		//tags= {"@single","@id"},
+		//name="id specific",
+		plugin = {"pretty", "html:target/OutReport"}
 		)
  
 public class RunTest {

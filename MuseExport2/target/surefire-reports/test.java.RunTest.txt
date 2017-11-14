@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: test.java.RunTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 133.099 s - in test.java.RunTest
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 53.225 s <<< FAILURE! - in test.java.RunTest
+Given Compare sites from URL1 = "http://muse-php.com/BoltTestData/set1/1/index.html" and URL2 = "http://muse-php.com/BoltTestData/set1/2/index.html" using WebService(| http://muse-php.com/BoltTestData/set1/1/index.html | http://muse-php.com/BoltTestData/set1/2/index.html |)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Error := In BP <960> For Element <u98> CSS Property <width> Mismatch. Expected <98.1667px>Actual <198.083px>
+
+| http://muse-php.com/BoltTestData/set1/1/index.html | http://muse-php.com/BoltTestData/set1/2/index.html |  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Error := In BP <960> For Element <u98> CSS Property <width> Mismatch. Expected <98.1667px>Actual <198.083px>
+
